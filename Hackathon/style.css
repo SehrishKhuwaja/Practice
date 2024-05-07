@@ -1,0 +1,82 @@
+
+.navbar{
+    background-color: #8E54E9;
+}
+footer{
+    background-color: #8E54E9;
+}
+
+.navbar-brand {
+    color: rgb(14, 13, 13);
+    margin-right: 300px;
+}
+
+
+.contact-btn {
+    margin-left: auto;
+    border-radius: 5%;
+    border-color: #230454;
+    border: 2px solid;
+    border-image-source: linear-gradient(90deg, #4776E6 0%, #8E54E9 100%);
+}
+
+.banner-section {
+    position: relative;
+    height: 650px;
+    background-color: #d9bbe8;
+    background-size: cover;
+    background-position: center;
+    text-align: left;
+    color: rgb(4, 3, 3);
+    padding: 50px;
+}
+
+.banner-content {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    max-height: 400px;
+    max-width: 600px;
+}
+
+.banner-content h1 {
+    font-size: 52px;
+    margin-bottom: 20px;
+    font-family: Roboto;
+    font-weight: 700;
+    line-height: 70.94px;
+    text-align: left;
+    color: #230454;
+}
+#forfree{
+    color: #8E54E9;
+}
+.banner-content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.get-started-btn {
+    font-size: 18px;
+    padding: 10px 30px;
+    border-radius: 5px;
+    background: linear-gradient(90deg, #4776E6 0%, #8E54E9 100%);
+
+}
+
+.get-started-btn:hover {
+    background-color: #ececf5;
+}
+
+.img {
+    position: absolute;
+    top: 40%;
+    left: 580px;
+    transform: translateY(-50%);
+    width: 240px;
+    height: 400px;
+    }
+
+    .navbar-dark .navbar-nav .nav-link {
+        color: black !important; /* Nav items color to black */
+    }
